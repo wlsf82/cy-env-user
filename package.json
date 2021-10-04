@@ -1,0 +1,21 @@
+{
+  "name": "cy-env-user",
+  "version": "1.0.0",
+  "description": "Cypress sample project to demonstrate how to log in using different sensitive data based on a userType environment variable.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:admin": "cypress open --env userType=admin",
+    "test": "cypress run",
+    "test:admin": "cypress run --env userType=admin"
+  },
+  "keywords": [
+    "Cypress",
+    "Talking About Testing",
+    "cy.handsOn()"
+  ],
+  "author": "Walmyr <walmyr@talkingabouttesting.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
